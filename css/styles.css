@@ -124,6 +124,8 @@ body {
   font-weight: 500;
   line-height: 1.14;
   color: var(--secondary-title-color);
+  display: flex;
+  align-items: center;
 }
 
 .header-contact-item{
@@ -137,8 +139,12 @@ body {
 }
 
 .header-icon{
-  fill: #757575;
+  fill: var(--primary-text-color);
+  margin-right: 10px;
+  fill: currentColor;
 }
+
+
 
 /* HERO */
 .hero {
@@ -429,6 +435,16 @@ body {
 .adress-link:focus {
   color: var(--accent-color);
 }
+
+.footer-list{
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-contact:not(last-child){
+  margin-right: 70px;
+}
+
 
 .foter-social-title{
   margin-bottom: 20px;
