@@ -360,6 +360,7 @@ body {
 }
 
 .footer {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -389,6 +390,24 @@ body {
 .adress-link:focus {
   color: var(--accent-color);
 }
+
+.foter-social-list{
+}
+
+
+/* CLIENTS */
+
+.clients-title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--secondary-title-color);
+}
+}
+
+
+
 
 /* PORTFOLIO */
 
