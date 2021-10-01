@@ -351,6 +351,42 @@ body {
   fill: #AFB1B8;
 }
 
+/* CLIENTS */
+
+.clients-title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--secondary-title-color);
+  margin-bottom: 50px;
+}
+.clients-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.clients-item{
+  max-width: 170px;
+  max-height: 92px;
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 6 - 30px);
+  outline: 1px solid #AFB1B8;
+  border-radius: 4px 4px 4px 4px;
+
+}
+
+.clients-icon{
+
+}
+
+
+
+
 
 /* FOOTER */
 
@@ -395,16 +431,8 @@ body {
 }
 
 
-/* CLIENTS */
 
-.clients-title{
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  color: var(--secondary-title-color);
-}
-}
+
 
 
 
