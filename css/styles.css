@@ -361,6 +361,7 @@ body {
   color: var(--secondary-title-color);
   margin-bottom: 50px;
 }
+
 .clients-list{
   display: flex;
   flex-wrap: wrap;
@@ -427,7 +428,15 @@ body {
   color: var(--accent-color);
 }
 
+.foter-social-title{
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
 .foter-social-list{
+  max-width: 200px;
 }
 
 
