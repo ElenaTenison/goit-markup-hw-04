@@ -114,6 +114,7 @@ body {
 }
 
 .header-item {
+  display: flex;
   padding: 32px 0;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -136,8 +137,7 @@ body {
 }
 
 .header-icon{
-  display: flex;
-  justify-content: center;
+  fill: #757575;
 }
 
 /* HERO */
