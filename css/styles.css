@@ -6,6 +6,7 @@
   --accent-color: #2196f3;
   --border-color: #ececec;
   --bg-color: #F5F4FA;
+  --primery-icon-color: #AFB1B8;
 }
 
 p,
@@ -350,8 +351,6 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  
-  
 }
 
 .social-icon{
@@ -380,18 +379,25 @@ body {
 }
 
 .clients-item{
-  max-width: 170px;
-  max-height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 6 - 30px);
-  outline: 1px solid #AFB1B8;
+  outline: 1px solid var(--primery-icon-color);
   border-radius: 4px 4px 4px 4px;
-
 }
 
-.clients-icon{
+.clients-item:hover,
+.clients-item:focus{
+ color: var(--accent-color);
+}
 
+.clients-icon{ 
+  fill: var(--primery-icon-color);
 }
 
 
