@@ -5,6 +5,7 @@
   --secondary-text-color: #ffffff;
   --accent-color: #2196f3;
   --border-color: #ececec;
+  --bg-color: #F5F4FA;
 }
 
 p,
@@ -234,9 +235,9 @@ body {
 .advantages-icon{
   display: flex;
   justify-content: center;
-  background-color: #F5F4FA;
-  max-width: 270px;
-  max-height: 120px;
+  align-items: center;
+  background-color: var(--bg-color);
+  height: 120px;
   margin-bottom: 30px;
 }
 
@@ -271,7 +272,7 @@ body {
 /* TEAM */
 
 .team{
-  background: #F5F4FA;
+  background: var(--bg-color);
 }
 
 .team-list {
@@ -290,7 +291,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
   0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background-color: #fff;
+  background-color: var(--primary-title-color);
 }
 
 .team-title {
@@ -535,7 +536,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   color: var(--secondary-title-color);
-  background-color: #F5F4FA;
+  background-color: var(--bg-color);
   cursor: pointer;
 }
 
