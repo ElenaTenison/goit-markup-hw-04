@@ -458,7 +458,7 @@ body {
   color: var(--accent-color);
 }
 
-.footer-list{
+.footer-info{
   display: flex;
   align-items: baseline;
 }
